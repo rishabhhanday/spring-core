@@ -1,10 +1,9 @@
 package com.practice.services;
 
-import com.practice.model.Student;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+@Component(value = "result1")
 public class Result {
-
 
     public String getResult(int marks) {
         if (marks > 50)

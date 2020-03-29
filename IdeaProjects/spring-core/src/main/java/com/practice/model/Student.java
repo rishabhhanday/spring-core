@@ -7,7 +7,6 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Data
-@Component(value = "student1")
 public class Student {
     @Autowired
     @Qualifier(value = "result1")
